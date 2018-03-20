@@ -1,0 +1,21 @@
+{
+  "name": "v-center",
+  "version": "1.0.0",
+  "description": "vertical center",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "author": "gongdapeng",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
