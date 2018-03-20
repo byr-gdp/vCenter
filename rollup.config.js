@@ -6,7 +6,6 @@ import uglify from 'rollup-plugin-uglify';
 
 const entry = path.resolve(__dirname, './src/index.js');
 const production = !process.env.ROLLUP_WATCH;
-// const entryDev = path.resolve(__dirname, '../src/index.dev.js');
 
 module.exports = [
   {
